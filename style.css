@@ -1,0 +1,62 @@
+body{
+margin:0px;
+padding:0px;
+font-family:sans-serif;
+}
+
+.container{
+    background:linear-gradient(135deg,darkviolet,skyblue);
+    width:100%;
+    height: 100vh;
+    
+}
+
+.card{
+    width:650px;
+    height:480px;
+    margin:100px 100px;
+    position: absolute;
+}
+
+.heading{
+    font-size:50px;
+    color:white;
+}
+
+.heading span{
+    color:yellow;
+}
+
+.box{
+    background: rgba(240, 240, 229, 0.11);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box input{
+    margin:0px 10px;
+    width:450px;
+   padding:10px;
+   outline:none;
+   border:none;
+}
+
+.box button{
+    background: yellow;
+    border:none;
+    outline:none;
+    padding:10px;
+    width:100px;
+}
+
+p{
+    font-size:30px;
+    color:white;
+}
+
+p span{
+    color:yellow;
+    font-size:35px;
+}
